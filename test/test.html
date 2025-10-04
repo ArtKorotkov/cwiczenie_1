@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Dane języki programowania</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+
+  table {
+    margin: 20px auto;
+    width: 85%;
+    border: 2px solid purple;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  caption {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid purple;
+  }
+
+  th {
+    background-color: #2f6627;
+    color: #ffffff;
+    border: 1px solid purple;
+    padding: 8px;
+  }
+
+  td {
+    border: 1px solid purple;
+    padding: 6px 10px;
+  }
+
+  /* Перші 3 рядки — зеленуваті */
+  tbody tr:nth-child(1),
+  tbody tr:nth-child(2),
+  tbody tr:nth-child(3) {
+    background: linear-gradient(to right, #99cc66, #b7e39d);
+  }
+
+  /* Наступні 3 — синювато-зелені */
+  tbody tr:nth-child(4),
+  tbody tr:nth-child(5),
+  tbody tr:nth-child(6) {
+    background: linear-gradient(to right, #a2b7e3, #a9c3e0);
+  }
+
+  /* Останні 3 — бірюзово-блакитні */
+  tbody tr:nth-child(7),
+  tbody tr:nth-child(8),
+  tbody tr:nth-child(9) {
+    background: linear-gradient(to right, #a3e0e3, #b7f0f0);
+  }
+
+  /* Стиль тексту для кольорових елементів */
+  td b {
+    color: black;
+  }
+
+  .rok { color: #ccff33; font-weight: bold; }
+  .zastosowanie { color: #00cc66; font-weight: bold; }
+  .paradygma { color: purple; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<table>
+  <caption>Dane języki programowania</caption>
+  <thead>
+    <tr>
+      <th>Nazwa</th>
+      <th>Rok</th>
+      <th>Autor</th>
+      <th>Zastosowanie</th>
+      <th>Paradygma</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>C</b></td>
+      <td class="rok">1972</td>
+      <td>Dennis Ritchie</td>
+      <td class="zastosowanie">Systemy operacyjne</td>
+      <td class="paradygma">Proceduralna</td>
+    </tr>
+    <tr>
+      <td><b>Go</b></td>
+      <td class="rok">2009</td>
+      <td>Google</td>
+      <td class="zastosowanie">Serwery, chmura</td>
+      <td class="paradygma">Proceduralna</td>
+    </tr>
+    <tr>
+      <td><b>C++</b></td>
+      <td class="rok">1985</td>
+      <td>Dennis Ritchie</td>
+      <td class="zastosowanie">Gry, grafika 3D</td>
+      <td class="paradygma">Proceduralna</td>
+    </tr>
+    <tr>
+      <td><b>Java</b></td>
+      <td class="rok">1995</td>
+      <td>Sun Microsystems</td>
+      <td class="zastosowanie">Android, korporacyjne</td>
+      <td class="paradygma">Obiektowa</td>
+    </tr>
+    <tr>
+      <td><b>C#</b></td>
+      <td class="rok">2000</td>
+      <td>Microsoft</td>
+      <td class="zastosowanie">.NET, Unity</td>
+      <td class="paradygma">Obiektowa</td>
+    </tr>
+    <tr>
+      <td><b>Swift</b></td>
+      <td class="rok">2014</td>
+      <td>Apple</td>
+      <td class="zastosowanie">iOS, macOS</td>
+      <td class="paradygma">Obiektowa</td>
+    </tr>
+    <tr>
+      <td><b>Python</b></td>
+      <td class="rok">1991</td>
+      <td>Guido van Rossum</td>
+      <td class="zastosowanie">AI, Web</td>
+      <td class="paradygma">Skryptowa</td>
+    </tr>
+    <tr>
+      <td><b>JavaScript</b></td>
+      <td class="rok">1995</td>
+      <td>Brendan Eich</td>
+      <td class="zastosowanie">Frontend, Node.js</td>
+      <td class="paradygma">Skryptowa</td>
+    </tr>
+    <tr>
+      <td><b>PHP</b></td>
+      <td class="rok">1995</td>
+      <td>Rasmus Lerdorf</td>
+      <td class="zastosowanie">Backend, CMS</td>
+      <td class="paradygma">Skryptowa</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

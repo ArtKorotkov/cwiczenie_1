@@ -11,7 +11,7 @@
 
         <center><h1> Formularz dotyczący warunków nauki i atmosfery w szkole</h1></center>
 
-        <form   action="mailto:tiomich227@gmail.com" >
+        <form   action="mailto:mkryniew@wp.pl" method="Post"  subject="formularz_dane" enctype="text/plain">
                 <ol type="1">
                         <li>            
                                 <h3>Jak oceniasz warunki nauki w Twojej szkole? </h3>
@@ -33,8 +33,8 @@
                         </li>
                         <li>
                                 <h3>Jak oceniasz relacje?</h3>
-                                <h4>Między uczniamy: <input type="radio" name="bd" value="k"> Bardzo dobre
-                                                     <input type="radio" name="d" value="m"> Dobre
+                                <h4>Między uczniamy: <input type="radio" name="bd" value="bd"> Bardzo dobre
+                                                     <input type="radio" name="d" value="d"> Dobre
                                                      <input type="radio" name="s" value="s"> Średnie
                                                      <input type="radio" name="z" value="z"> Złe </h4>
                                 <h4>Między uczniamy a nuczycielami: <input type="radio" name="bd" value="k"> Bardzo dobre
@@ -49,13 +49,13 @@
                                 
                         </li>
                         <li>
-                                <h3>Jak oceniasz pracę nauczucieli i sposób prowadzenia lekcji?</h3>
-                                <h4>
-                                        <input type="radio" name="bd" value="k"> Bardzo dobre  
-                                        <input type="radio" name="d" value="d"> Dobre 
-                                        <input type="radio" name="p" value="p"> Przeciętne 
-                                        <input type="radio" name="z" value="s"> Słabu 
-                                </h4>
+                               <h3>Jak oceniasz pracę nauczucieli i sposób prowadzenia lekcji?</h3>
+                                <select>
+                                        <option value="bd">Bardzo dobre</option>
+                                        <option value="d">Dobre</option>
+                                        <option value="p">Przeciętne</option>
+                                        <option value="s">Słabu</option>
+                                </select>
                         </li>
                         <li>
                                 <h3>Jakie masz uwagi lub propozycje dotyczące poprawy atmosfery w szkole?</h3>
@@ -63,6 +63,8 @@
                                 <textarea name="uwagi" placeholder="_" rows="3" cols="77"></textarea>
                         </li>
                 </ol>
+                <input type="submit" value="Wyślij formularz" style="height:40px; width:150px">
+                <input type="reset" value="Reset" style="height:40px; width:150px"> 
         </form> 
         <br><br>
         <A HREF="index.html"> Tutaj jest link do strony głównej </A>
